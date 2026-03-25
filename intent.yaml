@@ -8,7 +8,7 @@ purpose: >
   impression to teach came from the Spirit. The content exists in the study
   corpus. This project is the bridge between private study and public sharing.
 
-inherits_from: ../intent.yaml
+inherits_from: ../intent.yaml  # scripture-study root intent
 
 values:
   # All five root values (warmth, depth, honesty, faith, discernment) apply.

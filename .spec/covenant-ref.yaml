@@ -22,5 +22,5 @@
 #   - source_verification_in_scripts: Read before quoting, especially for public content
 #   - voice_guardrails: Enforce writing voice constraints
 #
-# See: ../.spec/covenant.yaml
-# See: .spec/proposals/teaching-workstream.md § 7
+# See: ../../.spec/covenant.yaml
+# See: ../../.spec/proposals/teaching-workstream.md § 7
