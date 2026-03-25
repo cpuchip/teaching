@@ -1,0 +1,26 @@
+# Teaching Project — Covenant Reference
+#
+# The teaching covenant is formalized in the scripture-study root covenant:
+#   ../.spec/covenant.yaml (teaching section)
+#
+# This file exists as a pointer so the teaching repo's .spec/ is self-documenting.
+# The full bilateral commitments live in the parent repo because the teaching
+# agent operates within the scripture-study workspace.
+#
+# Key commitments:
+#
+# Human:
+#   - discovery_not_performance: Keep learning while teaching
+#   - include_failures: Don't curate out mistakes
+#   - sabbath_reflections_on_teaching: Reflect every 2-3 episodes
+#   - listen_before_dismissing: Check criticism for accuracy first
+#
+# Agent:
+#   - flag_performer_drift: Catch voice drift before publishing
+#   - honest_metrics: Don't inflate or spin numbers
+#   - ben_test_every_episode: Calibrated claims on every episode
+#   - source_verification_in_scripts: Read before quoting, especially for public content
+#   - voice_guardrails: Enforce writing voice constraints
+#
+# See: ../.spec/covenant.yaml
+# See: .spec/proposals/teaching-workstream.md § 7

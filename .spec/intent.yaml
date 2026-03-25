@@ -1,0 +1,78 @@
+# Teaching Project — Intent
+# Inherits from the scripture-study root intent (../intent.yaml).
+# This document narrows the scope to teaching-specific purpose and values.
+
+purpose: >
+  Share what we're learning about human-AI collaboration through the lens of
+  scripture — not as experts, but as practitioners showing their work. The
+  impression to teach came from the Spirit. The content exists in the study
+  corpus. This project is the bridge between private study and public sharing.
+
+inherits_from: ../intent.yaml
+
+values:
+  # All five root values (warmth, depth, honesty, faith, discernment) apply.
+  # These are teaching-specific additions:
+
+  discovery-not-performance:
+    description: >
+      Teaching that has stopped learning is performance. Every episode should
+      contain something Michael discovered while preparing it — not just
+      knowledge he already had.
+    source: ".spec/proposals/teaching-workstream.md § 7"
+
+  audience-over-speaker:
+    description: >
+      The question is never 'does this make Michael look good?' It is always
+      'does this help someone who's watching?' If those two diverge, serve
+      the audience.
+    source: ".spec/proposals/teaching-workstream.md § 7"
+
+  failures-included:
+    description: >
+      Mistakes, corrections, and limitations go in the episodes. They are not
+      embarrassments to curate out — they are the credibility mechanism.
+    source: ".spec/proposals/teaching-workstream.md § 7"
+
+  calibrated-claims:
+    description: >
+      Every claim about our practice is calibrated against the Ben Test evidence
+      levels. We say what we practice, not what we've written about.
+    source: ".github/skills/ben-test/SKILL.md"
+
+constraints:
+  # Inherits all root constraints (read-before-quoting, cite-count-rule,
+  # link-everything, prefer-local-copies). Teaching-specific additions:
+
+  source-verification-amplified:
+    description: >
+      Source verification in teaching scripts is even more critical than in
+      studies. An unverified quote in a study is a private error. In a video,
+      it becomes a public one that can't be un-published.
+    severity: critical
+    enforcement: manual
+
+  voice-guardrails:
+    description: >
+      All teaching scripts follow the voice analysis constraints. No presenter
+      tics, no emotion narration, no telling the audience what to feel.
+    severity: high
+    source: "study/yt/voice-analysis-ai-vs-michael.md"
+    enforcement: agent + review
+
+  ben-test-required:
+    description: >
+      The Ben Test skill runs on every episode before it ships. Claims about
+      practice use calibrated language matching evidence levels.
+    severity: high
+    source: ".github/skills/ben-test/SKILL.md"
+    enforcement: agent (teaching agent Phase 2, Check 3)
+
+  humility-covenant:
+    description: >
+      Section 7 of the teaching workstream proposal is covenant-level, not
+      aspirational. Both human and agent commitments are binding. Formalized
+      in ../.spec/covenant.yaml under the 'teaching' section.
+    severity: critical
+    source: ".spec/covenant.yaml (teaching section)"
+    enforcement: mutual
