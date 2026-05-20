@@ -30,7 +30,7 @@ Target length: 12–18 minutes per episode.
 
 | # | Slug | Status |
 |---|------|--------|
-| 1 | the-value-shift | **draft 1** (2026-05-20) |
+| 1 | the-value-shift | **draft 2** (2026-05-20) — voice rewrite |
 | 2 | the-four-disciplines | planned |
 | 3 | spiritual-before-temporal | planned |
 | 4 | watched-until-they-obeyed | planned |
