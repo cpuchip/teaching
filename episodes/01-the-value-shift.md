@@ -5,7 +5,7 @@
 > "Whatever principle of intelligence we attain unto in this life, it will rise with us in the resurrection." — Doctrine and Covenants 130:18
 
 **Target length:** ~13 minutes (≈2000 spoken words)
-**Status:** draft 2, 2026-05-20 — voice rewrite against `study/yt/voice-analysis-ai-vs-michael.md`
+**Status:** draft 3, 2026-05-21 — meta-narration sweep
 **Scratch / provenance:** [`.scratch/the-value-shift/main.md`](../.scratch/the-value-shift/main.md)
 
 ---
@@ -24,11 +24,9 @@ The shift is in the bottleneck. For eighteen years, software's bottleneck was ex
 
 Execution isn't scarce anymore.
 
-If you've done this work for a while, you've probably felt the thing I'm going to say next.
+If you've done this work for a while, you've probably felt this too, I feel insignificant sometimes.
 
-[VISUAL: text — "I feel insignificant sometimes."]
-
-I feel insignificant sometimes.
+[VISUAL: text — "I feel insignificant sometimes." — hold while the speaker is silent]
 
 I can direct AI. I can set architecture. I can catch the ten percent that AI gets wrong, and that ten percent is where the bugs live and the security holes hide. The act of writing code, the thing that made me feel like a craftsman for almost two decades, isn't the centre of the job anymore. Some days I'm a reviewer more than a creator.
 
@@ -41,8 +39,6 @@ When the bottleneck moves, what made you valuable last year doesn't make you val
 ---
 
 ## 2. What the industry says (~2:30)
-
-The industry has a name for it.
 
 [VISUAL: Trejo quote card]
 
@@ -64,7 +60,7 @@ Milan Jovanović compressed the whole thing to one line that I keep coming back 
 
 That's the industry's read. It's right, as far as it goes. There are four disciplines now — prompt craft, context engineering, intent engineering, spec engineering. Courses, frameworks, conference talks. Plenty of teaching.
 
-Living inside the new work showed me something the disciplines don't quite reach. The industry can name what changed. It has a harder time naming what stays.
+Living inside the new work showed me something the disciplines don't quite reach.
 
 ---
 
@@ -100,13 +96,9 @@ The partnership doesn't always work. Sometimes the value the industry promises s
 
 Across a year — MCP servers that actually work, study documents I'm proud of, a publishing pipeline that ships real content — there's enough signal under the noise to be sure. The value shifted. The version of me adapting to that shift is doing more useful work than the version that just wrote code fast.
 
-So far the industry has been right about the *what* of the shift. The harder question is *why* the new work feels more durable. That answer comes from somewhere else.
-
 ---
 
 ## 4. The pattern underneath (~4:00)
-
-The industry's framing stops at "the bottleneck moved, here are the new skills." Scripture goes deeper.
 
 [VISUAL: Scripture card — D&C 130:18-19, large text]
 
@@ -145,7 +137,7 @@ I stopped asking "am I still relevant?" I started asking "am I using what I've b
 
 [VISUAL: practical close, plain]
 
-Here is what I do with this. Take what's useful.
+Take what's useful.
 
 **Stop measuring yourself by execution speed.** The old metric — lines of code, features shipped, bugs fixed — will leave you feeling inadequate forever. Like a calculator operator comparing themselves to a spreadsheet. The job changed. Measure by decisions made, systems designed, problems correctly framed.
 
@@ -157,7 +149,7 @@ Here is what I do with this. Take what's useful.
 
 [VISUAL: closing card — Episode 2 teaser]
 
-That's Episode 1. Next episode I walk through the four disciplines the industry has named — prompt craft, context engineering, intent engineering, spec engineering. What each one gets right. What they all miss together. Then in episode three we get to the seven things scripture says about creation that the industry hasn't gotten to yet.
+That's Episode 1. Next: the four disciplines the industry has named — prompt craft, context engineering, intent engineering, spec engineering. After that: seven things scripture has been saying about creation since the beginning.
 
 The written version with all the sources is at cpuchip.net.
 
@@ -168,7 +160,7 @@ Thanks for watching.
 ## Production notes
 
 - **Voice:** conversational, slow enough to think. Not influencer pace. ~150 wpm.
-- **Cuts:** the "I feel insignificant sometimes" line gets its own beat — no jump cut for emphasis. The honesty needs the space.
+- **Cuts:** the "I feel insignificant sometimes" line gets its own beat — the visual holds while the speaker is silent. No jump cut. The honesty needs the space.
 - **B-roll suggestions:** slow typing at a workstation; close-ups on scripture pages; the cpuchip.net studies page scrolling; the LCARS interface.
 - **Captions / lower thirds:** every external quote and every scripture reference needs a citation card on screen.
 - **Length check:** ~2000 words at 150 wpm is ~13:20. If it lands long, the easiest cuts are inside section 3 (the failure beat can shorten one sentence) and the bullet in section 5 about LinkedIn (the inventory bullet works without that detour).
@@ -204,3 +196,17 @@ Patterns the voice analysis flags, checked against this draft:
 - **Stage-manager beats** — *(Here's what I noticed)*, *(That sentence is the whole episode if you only remember one)* — removed.
 - **Em-dash density** — every paragraph at 2 max, most at 0–1.
 - **Genuine vs. rhetorical questions** — only one direct question to the reader (in section 5 framing). Other questions in the script are Michael asking himself.
+
+## Voice audit (draft 3 update)
+
+A third pass caught a pattern the first two missed: **meta-narration about the script's own arc** — telling the listener what's coming before saying it. Subtler than the "It's not X, it's Y" pivot, but the same family — performer language that breaks trust with the listener.
+
+- **Line 27 (the one Michael caught):** *"you've probably felt the thing I'm going to say next."* → fused with the payoff: *"you've probably felt this too, I feel insignificant sometimes."* The standalone repetition removed; the visual holds the words while the speaker is silent.
+- **Section 2 open:** *"The industry has a name for it."* — the section header already says this. Cut.
+- **Section 2 close:** *"The industry can name what changed. It has a harder time naming what stays."* — a preview of section 4. Cut.
+- **Section 3 close:** *"So far the industry has been right about the what of the shift. The harder question is why..."* — explicit preview of section 4. Cut.
+- **Section 4 open:** *"The industry's framing stops at... Scripture goes deeper."* — announced the pivot. Cut. Section now opens with the scripture itself doing the pivoting.
+- **Section 5 open:** *"Here is what I do with this."* — announced the bullets that follow. Cut. *"Take what's useful"* carries the lead-in.
+- **Series teaser:** *"What each one gets right. What they all miss together."* — meta-narration of episode 2's internal structure. Cut. Topics are named in the teaser; their internal structure isn't.
+
+The shift in feel: from "guided tour" to "the thing itself." Less explanation-of-explanation. Closer to a friend telling you what they figured out, further from a TED talk.
