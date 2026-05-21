@@ -30,7 +30,7 @@ Target length: 12–18 minutes per episode.
 
 | # | Slug | Status |
 |---|------|--------|
-| 1 | the-value-shift | **draft 4** (2026-05-21) — partnership voicing (chat-history audit) |
+| 1 | the-value-shift | **draft 5** (2026-05-21) — clarity pass (pronoun antecedents) |
 | 2 | the-four-disciplines | planned |
 | 3 | spiritual-before-temporal | planned |
 | 4 | watched-until-they-obeyed | planned |

@@ -5,7 +5,7 @@
 > "Whatever principle of intelligence we attain unto in this life, it will rise with us in the resurrection." — Doctrine and Covenants 130:18
 
 **Target length:** ~13 minutes (≈2000 spoken words)
-**Status:** draft 4, 2026-05-21 — partnership voicing (chat-history audit)
+**Status:** draft 5, 2026-05-21 — clarity pass (pronoun antecedents)
 **Scratch / provenance:** [`.scratch/the-value-shift/main.md`](../.scratch/the-value-shift/main.md)
 
 ---
@@ -28,7 +28,7 @@ If you've done this work for a while, you've probably felt this too, I feel insi
 
 [VISUAL: text — "I feel insignificant sometimes." — hold while the speaker is silent]
 
-I work with AI. I set architecture. I catch the gaps — the ten percent that doesn't quite land, where bugs live and security holes hide. The act of writing code, the thing that made me feel like a craftsman for almost two decades, isn't the centre of the job anymore. Some days I'm a reviewer more than a creator.
+I work with AI. I set architecture. I catch the gaps — the ten percent we miss on the first pass, where bugs live and security holes hide. The act of writing code, the thing that made me feel like a craftsman for almost two decades, isn't the centre of the job anymore. Some days I'm a reviewer more than a creator.
 
 A senior developer in a Reddit thread last year said it like this: *I haven't written a single line of code in four months.* Juggling AI tabs and YouTube while the models work. Missing the slower architecture work.
 
@@ -42,7 +42,7 @@ When the bottleneck moves, what made you valuable last year doesn't make you val
 
 [VISUAL: Trejo quote card]
 
-Tony Trejo calls it the *Value Shift Framework*. His phrasing:
+Tony Trejo calls the shift the *Value Shift Framework*. His phrasing:
 
 > "AI didn't replace engineers. It replaced execution as the bottleneck. And when the bottleneck moves, value moves with it."
 
@@ -76,7 +76,7 @@ I sat down to write a study about my own situation. Just for me. I titled it "St
 
 The study took a few hours. We worked it together. The model pulled in articles, ran cross-references, helped structure the argument. The writing was mine — the judgment about what mattered, the personal honesty, the questions worth asking. The synthesis happened faster than I could have managed alone.
 
-When I finished, the writing itself was the evidence.
+When I finished, the writing itself was the answer to my question.
 
 [VISUAL: text overlay]
 
@@ -143,7 +143,7 @@ Take what's useful.
 
 **Take inventory of what you actually bring.** Years of debugging hard production issues. Domain understanding nobody on the internet has. The taste to tell good output from confident garbage. The agency to care whether the work matters. Write the list down. It will be longer than you think.
 
-**Work with AI as a partner.** Bring the judgment about what to build. The execution comes from the partnership. When that works, you do more in a day than you used to do in a week. The work you do is more valuable than the work you used to do.
+**Work with AI as a partner.** Bring the judgment about what to build. The execution comes from the partnership. When that works, you do more in a day than you used to do in a week. The work that comes out of the partnership is more valuable than the work you used to do alone.
 
 **Invest in the durable layer.** Tools change. Problems don't. The thing rising with you in the resurrection is the judgment you have been building since you started.
 
