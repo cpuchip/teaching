@@ -5,7 +5,7 @@
 > "Whatever principle of intelligence we attain unto in this life, it will rise with us in the resurrection." — Doctrine and Covenants 130:18
 
 **Target length:** ~13 minutes (≈2000 spoken words)
-**Status:** draft 3, 2026-05-21 — meta-narration sweep
+**Status:** draft 4, 2026-05-21 — partnership voicing (chat-history audit)
 **Scratch / provenance:** [`.scratch/the-value-shift/main.md`](../.scratch/the-value-shift/main.md)
 
 ---
@@ -28,7 +28,7 @@ If you've done this work for a while, you've probably felt this too, I feel insi
 
 [VISUAL: text — "I feel insignificant sometimes." — hold while the speaker is silent]
 
-I can direct AI. I can set architecture. I can catch the ten percent that AI gets wrong, and that ten percent is where the bugs live and the security holes hide. The act of writing code, the thing that made me feel like a craftsman for almost two decades, isn't the centre of the job anymore. Some days I'm a reviewer more than a creator.
+I work with AI. I set architecture. I catch the gaps — the ten percent that doesn't quite land, where bugs live and security holes hide. The act of writing code, the thing that made me feel like a craftsman for almost two decades, isn't the centre of the job anymore. Some days I'm a reviewer more than a creator.
 
 A senior developer in a Reddit thread last year said it like this: *I haven't written a single line of code in four months.* Juggling AI tabs and YouTube while the models work. Missing the slower architecture work.
 
@@ -74,7 +74,7 @@ I sat down to write a study about my own situation. Just for me. I titled it "St
 
 [VISUAL: cpuchip.net "Staying Relevant" study, slow scroll]
 
-The study took a few hours. AI helped. Pulled in articles, ran cross-references, structured the argument. The AI didn't write the study. I did. AI executed the parts I directed.
+The study took a few hours. We worked it together. The model pulled in articles, ran cross-references, helped structure the argument. The writing was mine — the judgment about what mattered, the personal honesty, the questions worth asking. The synthesis happened faster than I could have managed alone.
 
 When I finished, the writing itself was the evidence.
 
@@ -86,13 +86,13 @@ That's what a year of working this way has been showing me.
 
 The judgment about what to write — mine. The taste about which sources mattered — mine. The personal honesty in the piece — that has to come from a person. AI has nothing to be vulnerable about. The cross-reference to scripture, the framing through the parable of the talents — those came out of years of study.
 
-The execution speed came from the partnership. The synthesis of five articles in an hour instead of a day. The willingness to do another draft when the first wasn't quite right. That was AI doing what I directed it to do, faster than I could have done it alone.
+The execution speed came from the partnership. The synthesis of five articles in an hour instead of a day. The willingness to do another draft when the first wasn't quite right. That came from working with the model at a pace I couldn't have matched alone.
 
 [VISUAL: a different tone — the failure beat, plain]
 
-I've also had weeks of yelling at the model. Prompt spiral after prompt spiral. Three hours trying to get it to understand my database schema before I gave up and wrote the migration myself in twenty minutes. Days where I felt like a janitor cleaning up after a confident toddler who never sleeps.
+I've also had weeks where the tools broke and the model lost the thread and we had to dig out together. Three hours pinning down why a database schema wasn't loading right, only to find it was a stale path in my own config. Days carrying a study across four session limits because the context kept blowing out and we'd start over. Some of it is the model getting lost. Most of it is me — shorthand I forgot to translate, intent I left implied, a project shape only I could see.
 
-The partnership doesn't always work. Sometimes the value the industry promises shows up. Sometimes you're tired and the model is producing slop and the prompts are making it worse.
+The partnership doesn't always produce the thing I hoped for on the first pass. Sometimes the second draft is the real one. Sometimes the fifth.
 
 Across a year — MCP servers that actually work, study documents I'm proud of, a publishing pipeline that ships real content — there's enough signal under the noise to be sure. The value shifted. The version of me adapting to that shift is doing more useful work than the version that just wrote code fast.
 
@@ -127,7 +127,7 @@ The servant with five made five more. The servant with two made two more. Both g
 
 The one who was condemned was the one who buried what he was given.
 
-Eighteen years of engineering is a talent. So is whatever you've been given. Years of experience. Taste for good design. Instinct for what will fail in production. Agency. The capacity to care whether the work matters. AI cannot take any of it from you. AI can only commoditise the previous version of what you did with it.
+Eighteen years of engineering is a talent. So is whatever you've been given. Years of experience. Taste for good design. Instinct for what will fail in production. Agency. The capacity to care whether the work matters. None of it can be taken from you. AI commoditises the previous version of what you did. It doesn't touch what you've become through doing it.
 
 I stopped asking "am I still relevant?" I started asking "am I using what I've been given?"
 
@@ -143,7 +143,7 @@ Take what's useful.
 
 **Take inventory of what you actually bring.** Years of debugging hard production issues. Domain understanding nobody on the internet has. The taste to tell good output from confident garbage. The agency to care whether the work matters. Write the list down. It will be longer than you think.
 
-**Direct AI. Bring the judgment about what to build; let it bring the execution.** When that works, you do more in a day than you used to do in a week. The work you do is more valuable than the work you used to do.
+**Work with AI as a partner.** Bring the judgment about what to build. The execution comes from the partnership. When that works, you do more in a day than you used to do in a week. The work you do is more valuable than the work you used to do.
 
 **Invest in the durable layer.** Tools change. Problems don't. The thing rising with you in the resurrection is the judgment you have been building since you started.
 
@@ -175,7 +175,7 @@ Thanks for watching.
 | Jovanović "owning correctness" | `study/ai/relavent.md:61` → [LinkedIn](https://www.linkedin.com/posts/milan-jovanovic_ai-wont-replace-you-in-2026-but-a-developer-activity-7419357471263252480-tzCf) |
 | Joshua Thompson Reddit thread | `study/ai/relavent.md:69` → [joshthompson.co.uk](https://joshthompson.co.uk/ai/ai-killed-joy-programming-senior-developers-reclaim-flow-2026/) |
 | "I feel insignificant sometimes" | `study/ai/relavent.md:29` (Michael's own words) |
-| Three-hours-yelling-at-the-model failure | Paraphrased from `study/ai/fatigue.md:65` (the Reddit highlight-reel observation) |
+| Database-schema / session-limit failure beat | Composite of real failure modes from chat-history audit (2026-05-21): tool breakage, session limits, context blowouts, his own shorthand confusing the model. Not a single attributable incident — verified pattern. See `.claude/skills/voice-michael/` for the audit. |
 | D&C 130:18-19 | `gospel-library/eng/scriptures/dc-testament/dc/130.md` |
 | Parable of the Talents framing | `study/ai/relavent.md:159-162`; scripture: `gospel-library/eng/scriptures/nt/matt/25.md` |
 | Abraham 4-5 "organized and watched" | `gospel-library/eng/scriptures/pgp/abr/4.md` and consistent use across `docs/work-with-ai/` |
@@ -210,3 +210,18 @@ A third pass caught a pattern the first two missed: **meta-narration about the s
 - **Series teaser:** *"What each one gets right. What they all miss together."* — meta-narration of episode 2's internal structure. Cut. Topics are named in the teaser; their internal structure isn't.
 
 The shift in feel: from "guided tour" to "the thing itself." Less explanation-of-explanation. Closer to a friend telling you what they figured out, further from a TED talk.
+
+## Voice audit (draft 4 update) — partnership voicing
+
+Michael caught a deeper layer: the script had me describing him in **adversarial relationship to AI** — yelling at the model, fighting it, directing it like a tool. That was me importing the "engineer-vs-AI" trope from training data. A chat-history audit (80+ user messages across `.copilot/session-state` and `.claude/projects`, 2026-05-21) confirmed: zero instances of him yelling at AI, ever. His working principle, in his own words: *"I seek kindness for kindness. Light for light. If I am angry, that activates anger parts of your model and I get back that."*
+
+Six places adjusted:
+
+- **Section 1, the role list:** *"I can direct AI. I can set architecture. I can catch the ten percent that AI gets wrong"* → *"I work with AI. I set architecture. I catch the gaps — the ten percent that doesn't quite land."* Removes "AI gets wrong" (positions AI as failure source) for "gaps" (shared verification surface).
+- **Section 3, the study collaboration paragraph:** *"AI helped. Pulled in articles, ran cross-references, structured the argument. The AI didn't write the study. I did. AI executed the parts I directed."* → *"We worked it together. The model pulled in articles, ran cross-references, helped structure the argument. The writing was mine — the judgment about what mattered, the personal honesty, the questions worth asking."* The "we" matches how he actually narrates collaborative work in chat (*"we built," "we shipped," "our queue"*).
+- **Section 3, the partnership beat:** *"That was AI doing what I directed it to do, faster than I could have done it alone."* → *"That came from working with the model at a pace I couldn't have matched alone."* Same point, less directorial.
+- **Section 3, the failure beat:** *"weeks of yelling at the model. Prompt spiral after prompt spiral. Three hours trying to get it to understand my database schema before I gave up... Days where I felt like a janitor cleaning up after a confident toddler who never sleeps."* → real failure modes from the audit: tools breaking, session limits, context blowouts, *"shorthand I forgot to translate, intent I left implied, a project shape only I could see."* When something goes wrong, Michael takes responsibility for ambiguity. The fabricated-anger version inverted that.
+- **Section 4, the commoditisation line:** *"AI cannot take any of it from you. AI can only commoditise the previous version of what you did with it."* → *"None of it can be taken from you. AI commoditises the previous version of what you did. It doesn't touch what you've become through doing it."* Removes AI-as-thief framing; surfaces the becoming-through-work principle.
+- **Section 5, the directive:** *"Direct AI. Bring the judgment about what to build; let it bring the execution."* → *"Work with AI as a partner. Bring the judgment about what to build. The execution comes from the partnership."* Replaces "direct it" with "work with as a partner."
+
+Memory + skill written so this doesn't recur: `feedback_michael_voice_kindness.md` (auto-loads) and `.claude/skills/voice-michael/SKILL.md` (drafting reference, also at `.github/skills/voice-michael/`).
