@@ -5,7 +5,7 @@
 > "Whatever principle of intelligence we attain unto in this life, it will rise with us in the resurrection." — Doctrine and Covenants 130:18
 
 **Target length:** ~13 minutes (≈2000 spoken words)
-**Status:** draft 5, 2026-05-21 — clarity pass (pronoun antecedents)
+**Status:** draft 6, 2026-05-21 — fact-check pass (external + scripture verification)
 **Scratch / provenance:** [`.scratch/the-value-shift/main.md`](../.scratch/the-value-shift/main.md)
 
 ---
@@ -30,7 +30,7 @@ If you've done this work for a while, you've probably felt this too, I feel insi
 
 I work with AI. I set architecture. I catch the gaps — the ten percent we miss on the first pass, where bugs live and security holes hide. The act of writing code, the thing that made me feel like a craftsman for almost two decades, isn't the centre of the job anymore. Some days I'm a reviewer more than a creator.
 
-A senior developer in a Reddit thread last year said it like this: *I haven't written a single line of code in four months.* Juggling AI tabs and YouTube while the models work. Missing the slower architecture work.
+A senior developer on Reddit said it like this: *I haven't written a single line of code in four months.* Juggling AI tabs and YouTube while the models work. Missing the slower architecture work.
 
 That's the shape of a job changing under you.
 
@@ -50,7 +50,7 @@ Tony Trejo calls the shift the *Value Shift Framework*. His phrasing:
 
 What was scarce before AI is not scarce now. What's scarce now is different. Knowing what to build. Architectural decisions that survive contact with reality. Verifying AI output against production constraints. Orchestrating human-plus-AI teams.
 
-Ivan Turkovic put it as a title: *AI Made Writing Code Easier. It Made Engineering Harder.*
+Ivan Turkovic put it as a title: *AI Made Writing Code Easier. It Made Being an Engineer Harder.*
 
 Milan Jovanović compressed the whole thing to one line that I keep coming back to:
 
@@ -170,15 +170,16 @@ Thanks for watching.
 | Claim / quote | Verified against |
 |---|---|
 | 18-year framing, bottleneck shift | `study/ai/relavent.md:9-14` (Michael's own words) |
-| Trejo quote | `study/ai/relavent.md:17` → [tonytrejodev.medium.com](https://tonytrejodev.medium.com/the-value-shift-framework-for-software-engineers-2026-edition-2ef42f18d472) |
-| Turkovic article title | `study/ai/relavent.md:19` → [ivanturkovic.com](https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/) |
-| Jovanović "owning correctness" | `study/ai/relavent.md:61` → [LinkedIn](https://www.linkedin.com/posts/milan-jovanovic_ai-wont-replace-you-in-2026-but-a-developer-activity-7419357471263252480-tzCf) |
-| Joshua Thompson Reddit thread | `study/ai/relavent.md:69` → [joshthompson.co.uk](https://joshthompson.co.uk/ai/ai-killed-joy-programming-senior-developers-reclaim-flow-2026/) |
+| Trejo quote | **Verified verbatim** at [medium.com/codetodeploy](https://medium.com/codetodeploy/the-value-shift-framework-for-software-engineers-2026-edition-2ef42f18d472) (tonytrejodev.medium.com redirects there). |
+| Turkovic article title | **Verified verbatim** at [ivanturkovic.com](https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/) — full title is *"AI Made Writing Code Easier. It Made Being an Engineer Harder."* (the "Being an" distinguishes role from field — keep it) |
+| Jovanović "owning correctness" | **Verified** at [LinkedIn](https://www.linkedin.com/posts/milan-jovanovic_ai-wont-replace-you-in-2026-but-a-developer-activity-7419357471263252480-tzCf). Script quotes last two sentences as a pull-quote; the full line is *"If you're trying to 'stay relevant' in the AI era, the skill isn't prompting. It's owning correctness."* Note: the "stay relevant" framing is the origin of `study/ai/relavent.md` — Michael was reading Jovanović when he titled the study. |
+| Joshua Thompson Reddit reference | **Verified** at [joshthompson.co.uk](https://joshthompson.co.uk/ai/ai-killed-joy-programming-senior-developers-reclaim-flow-2026/). The quote *"I haven't written a single line of code in four months"* is direct; Thompson attributes to "a senior developer on Reddit" without naming the user. Underlying thread: ["I have lost the technical passion"](https://www.reddit.com/r/ArtificialInteligence/comments/1r6qvg7/i_have_lost_the_technical_passion/). "Juggling AI tabs and YouTube while the models work" and "Missing the slower architecture work" are Michael's paraphrase of the developer's described pattern, not direct quotes. |
 | "I feel insignificant sometimes" | `study/ai/relavent.md:29` (Michael's own words) |
 | Database-schema / session-limit failure beat | Composite of real failure modes from chat-history audit (2026-05-21): tool breakage, session limits, context blowouts, his own shorthand confusing the model. Not a single attributable incident — verified pattern. See `.claude/skills/voice-michael/` for the audit. |
-| D&C 130:18-19 | `gospel-library/eng/scriptures/dc-testament/dc/130.md` |
-| Parable of the Talents framing | `study/ai/relavent.md:159-162`; scripture: `gospel-library/eng/scriptures/nt/matt/25.md` |
-| Abraham 4-5 "organized and watched" | `gospel-library/eng/scriptures/pgp/abr/4.md` and consistent use across `docs/work-with-ai/` |
+| D&C 130:18-19 | **Verified verbatim** against `gospel-library/eng/scriptures/dc-testament/dc/130.md` |
+| Parable of the Talents — 5, 2, 1 distribution | **Verified** against `gospel-library/eng/scriptures/nt/matt/25.md` v15. The 10 talents at v28 is the *final* count of the first servant after doubling (5 + 5 = 10) — different number, different verse. |
+| "Well done, thou good and faithful servant" | **Verified verbatim** Matt 25:21 |
+| Abraham 4-5 "watched things until they obeyed" | **Verified** Abraham 4:18 — full verse: *"And the Gods watched those things which they had ordered until they obeyed."* Script compresses to "things" but preserves the quoted phrase exactly. |
 | MCP servers, publishing pipeline | Project state — `scripts/` and `scripts/publish/` |
 
 ## Ben Test calibration applied
