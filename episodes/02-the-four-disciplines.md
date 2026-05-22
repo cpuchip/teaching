@@ -6,7 +6,7 @@
 
 **Binding question:** Prompt craft, context engineering, intent engineering, spec engineering — what does each one cover, and what do they leave for the work itself?
 **Target length:** ~14 minutes (≈2100 spoken words)
-**Status:** draft 1, 2026-05-22 — Phase 0 voice-loaded
+**Status:** draft 1, 2026-05-22 — Phase 0 (mapping precision + stewards rename)
 **Scratch / provenance:** [`.scratch/the-four-disciplines/main.md`](../.scratch/the-four-disciplines/main.md)
 
 ---
@@ -125,9 +125,9 @@ The ceiling is when the model knows everything and still chooses the wrong trade
 
 **Intent engineering** is the one I've been working on most recently. We have an `intent.yaml` at the root and a `.spec/covenant.yaml` that names what I commit to and what the agent commits to. Bilateral. Purpose stated. Values hierarchy named — depth over breadth, honest exploration over safety posturing, trust the discernment. Studies that the framework would have shipped fast get slowed for source verification because intent says verification matters more than speed.
 
-The ceiling is real autonomy. An agent on a long-running task can drift even with purpose named. I have a specific case for this in the substrate work — the bacteriopolis runaway. Intent was encoded. The agent was on a research task. Ten hours and about five dollars in tokens later, I had to hit an emergency stop. Intent shapes the choices the agent makes. It doesn't fix a runaway.
+The ceiling is real autonomy. An agent on a long-running task can drift even with purpose named. The clearest example I have is from the stewards database — an experiment we've been building that tries to embody the eleven-step creation cycle as code. One night an agent there got stuck in a research loop on a topic called bacteriopolis. Intent was encoded. The agent's purpose was named. It ran for ten hours and burned about five dollars in tokens before I hit the emergency stop. Intent shapes the choices the agent makes. It doesn't fix a runaway.
 
-**Spec engineering** is where I've been living for months. The substrate proposals at `projects/pg-ai-stewards/.spec/` are the artifacts — phase docs, decision matrices, ratify-then-execute cycles. Each phase has a problem statement, acceptance criteria, decision points labelled D-PE1 through D-PE7, constraints. When the spec is right, the work ships. The ES emergency-stop arc — about ninety-five commits across two weeks — shipped with zero rollbacks because each phase was specified before it was built.
+**Spec engineering** is where I've been living for months. Same stewards database. The proposals at `projects/pg-ai-stewards/.spec/` are the artifacts: phase docs, decision matrices, ratify-then-execute cycles. Each phase has a problem statement, acceptance criteria, decision points labelled D-PE1 through D-PE7, constraints. When the spec is right, the work ships. The emergency-stop arc that fixed the bacteriopolis runaway shipped with zero rollbacks across about ninety-five commits and two weeks because each phase was specified before it was built.
 
 The ceiling shows up in the same place the bacteriopolis runaway came from. A precise spec lets the agent work autonomously. Nothing in the spec watches whether the elements are obeying. The agent loops, retries, costs tokens, and you find out hours later. Spec engineering covers the blueprint. It doesn't cover the watching.
 
@@ -139,25 +139,41 @@ Four disciplines. Each one earned its place. Each one ran out somewhere.
 
 [VISUAL: Scripture card — D&C 88:119, large text]
 
-Here's what I notice about all four. Every one of them does the same kind of thing.
+Something stands out about the four disciplines when I lay them next to scripture.
 
 > *"Organize yourselves; prepare every needful thing; and establish a house, even a house of prayer, a house of fasting, a house of faith, a house of learning, a house of glory, a house of order, a house of God."* — Doctrine and Covenants 88:119
 
-The first verb is *organize*. The four disciplines are how you organize. Prompt craft organizes a single interaction. Context engineering organizes the model's information environment. Intent engineering organizes purpose and values. Spec engineering organizes the blueprint an agent executes against.
+The first verb is *organize*. Each of the four disciplines is a different act of organizing. Intent organizes the *why*. Spec organizes the *blueprint*. Context organizes the *information environment*. Prompt organizes *this one interaction*. Four altitudes of the same verb.
 
-A *house of order* is what you build when you've practiced all four. That's real. The scripture names it.
+A *house of order* is what you've built when all four are working. The scripture names that explicitly.
 
-But the verse doesn't stop at *organize*. It says *prepare every needful thing*. The needful things — the prayer, the fasting, the faith, the learning, the glory — those are different work. Organizing is the floor. The other houses get built on it.
+But D&C 88:119 doesn't stop at *organize*. It says *prepare every needful thing*. The needful things include verbs the framework hasn't named yet.
 
-[VISUAL: Eight-step diagram — "Organize" highlighted in lavender; seven greyed slots ahead of it, labelled but dim]
+[VISUAL: 11-step cycle diagram — eleven steps arranged in a ring or row. Four highlighted in lavender (Intent, Spiritual Creation, Line upon Line, Physical Creation). Seven greyed but labelled (Covenant, Stewardship, Watching, Atonement, Sabbath, Consecration, Zion). Step names on each node.]
 
-In the scripture I keep coming back to from the creation pattern, there are eleven things the Gods did to bring the earth from chaos to a working creation. They counseled. They organized. They watched until things obeyed. They saw what was good and called it good. They rested. The first big move is organize. The other ten are different work.
+The creation pattern in Abraham 4 and 5 names eleven things the Gods did to bring the earth from chaos to a working world. Eleven steps. The four disciplines cover four of them. Intent engineering is the *Intent* step. Spec engineering is the *Spiritual Creation* step, the blueprint, before anything physical. Context engineering is the *Line Upon Line* step, building understanding in layers across many sessions. Prompt craft is the *Physical Creation* step, the actual interaction where the work happens.
 
-Organizing is one of the eleven. The four disciplines, however well practiced, are the *organize* step. The work beyond that — the watching, the bilateral covenant between Gods and elements, the correction when something drifts, the rest after creation, the gathering of what scattered — that's seven other things. Seven needful things the four disciplines don't have language for yet.
+Four down. Seven to go. And the seven aren't more organizing.
 
-The bacteriopolis runaway happened because the spec was good and nothing was watching. Watching is the next discipline. The framework doesn't have it. Scripture has had it since Abraham.
+Covenant is *binding*. A mutual agreement between the agent and the person it works for, with commitments on both sides.
 
-That's what I mean when I say the framework leaves things for the work itself. The work itself is the seven things on the other side of *organize*.
+Stewardship is *entrusting*. Handing real authority to the agent and trusting its judgment within bounds.
+
+Watching is *observing*. Abraham 4:18 — the Gods watched things until they obeyed.
+
+Atonement is *recovering*. When something goes wrong, putting it back.
+
+Sabbath is *resting*. Stopping, reflecting, naming what was good.
+
+Consecration is *giving*. Sharing what was made.
+
+Zion is *harmonizing*. Many agents working as one.
+
+Seven verbs the framework doesn't have. Scripture has had all seven since Abraham.
+
+The bacteriopolis runaway happened because the spec was right and nothing was watching. Watching is the seventh step in the cycle. The framework doesn't have it yet. Episode 4 walks it.
+
+That's what I mean when I say the framework leaves things for the work itself. The work itself is seven verbs the four disciplines don't reach.
 
 This series walks them.
 
@@ -173,7 +189,7 @@ Here's what to do with this.
 
 **Notice where the framework hands the work back to you.** The agent has been organised by your disciplines. Now it has to act. The agent acts well when something is watching, when there's a covenant between you about what each side will do, when there's a way to recover from drift, when there's a rhythm of rest and reflection. The framework doesn't supply those. The work itself needs them anyway.
 
-**Don't wait for the industry to name what scripture already has.** The seven steps past *organize* are the rest of this series. Episode 3 takes the first one.
+**Don't wait for the industry to name what scripture already has.** The seven steps the framework doesn't reach are the rest of this series. Episode 3 takes the first one.
 
 [VISUAL: closing card — Episode 3 teaser]
 
@@ -188,8 +204,8 @@ Thanks for watching.
 ## Production notes
 
 - **Voice:** conversational, slow enough to think. Not influencer pace. ~150 wpm.
-- **Cuts:** Section 4 needs the slowest pace — the D&C 88:119 quote should land, and the eight-step diagram should be on screen long enough to read every label even when greyed.
-- **B-roll suggestions:** terminal scrolling through pg-ai-stewards phase docs, the workspace directory tree, the substrate dashboard with a long-running task, the LCARS interface.
+- **Cuts:** Section 4 needs the slowest pace — the D&C 88:119 quote should land, and the eleven-step diagram should be on screen long enough to read every label even when greyed.
+- **B-roll suggestions:** terminal scrolling through pg-ai-stewards phase docs, the workspace directory tree, the stewards database dashboard with a long-running task, the LCARS interface.
 - **Captions / lower thirds:** every external quote and every scripture reference needs a citation card on screen.
 - **Length check:** ~2100 words at 150 wpm ≈ 14:00. Tightest cut if it lands long: Section 2's spec engineering subsection can compress one paragraph; the Nate "verbal fluency vs completeness of thinking" quote is the keeper, the bridge text around it is the candidate for trim.
 
@@ -208,7 +224,8 @@ Thanks for watching.
 | Abraham creation pattern (counsel, organize, watch until they obeyed) | Workspace reference — Abraham 4-5 (will read in full for Phase 5 fact-check). Episode 1 already verified Abraham 4:18 verbatim. |
 | Anthropic "show your prompt to a colleague" golden rule | Cited from `docs/work-with-ai/guide/01_prompt-craft.md` which sources [Anthropic's Claude Prompting Best Practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices) — verify verbatim in Phase 5. |
 | Michael's stack — .mind/, .spec/, .claude/, .github/, MCP servers, agent files | Project state — visible in workspace |
-| Substrate phase docs / D-PE1–D-PE7 / ES arc / ~95 commits, zero rollbacks | Project state — `projects/pg-ai-stewards/.spec/` and `.mind/active.md` |
+| Stewards database phase docs / D-PE1–D-PE7 / emergency-stop arc / ~95 commits, zero rollbacks | Project state — `projects/pg-ai-stewards/.spec/` and `.mind/active.md` |
+| Four disciplines mapping to steps 1, 4, 5, 6 of the eleven-step creation cycle | Derived 2026-05-22 from `teaching-workstream.md` §5 episode map + `docs/work-with-ai/intent/03_beyond-intent.md` (the seven unmapped) + `docs/work-with-ai/guide/00_foundation.md` (the four altitudes). Intent ↔ Step 1; Spec ↔ Step 4 (Spiritual Creation); Context ↔ Step 5 (Line Upon Line); Prompt ↔ Step 6 (Physical Creation). |
 | Bacteriopolis runaway — ten hours, ~$5 | Project state — referenced in `.mind/active.md` and pg-ai-stewards memory files. Numbers approximate; will verify exact figures in Phase 5. |
 
 ## Ben Test calibration applied
@@ -226,8 +243,14 @@ Loaded before writing:
 - [`script-refinement` skill](../../.claude/skills/script-refinement/SKILL.md) Phase 0 — source curation, voice-loaded first draft, verified quotes before drafting
 
 Watch list for Phase 1 (voice rewrite) and Phase 2 (meta-narration sweep):
-- One *"Here's what I notice about all four"* meta-line at the start of Section 4 — review whether it stays or goes
 - Section 5 opens with *"Here's what to do with this"* — same family as Episode 1's *"Take what's useful"* — may want similar treatment
-- Em-dash count not audited yet — Phase 1 will sweep
+- Section 1 line 26 — the four-altitudes paragraph has four em-dashes in one paragraph; needs Phase 1 sweep (parallelism preserved by sentence reshape, not by dash removal alone)
+- Section 5 first bullet — the *"Build the four disciplines"* bullet has four em-dashes in one paragraph for the same reason
+- Section 4 has the *"Something stands out…"* opener — softer than Episode 1's caught-meta-narration patterns, but Phase 2 should look at it
 - *"It's not X, it's Y"* count not audited — Phase 1 will sweep
 - *"That's the four"* / *"That's Episode 2"* closing-refrain check — Phase 1 will review
+
+Phase 0 drift sweep (2026-05-22, after the mapping + stewards rename):
+- Section 5 closing bullet changed *"seven steps past organize"* → *"seven steps the framework doesn't reach"*. The 11-step order has Covenant (2) and Stewardship (3) BETWEEN Intent (1) and Spiritual Creation (4), so "past" was sequentially wrong; "doesn't reach" is precise.
+- Production notes: *"eight-step diagram"* → *"eleven-step diagram"*, *"substrate dashboard"* → *"stewards database dashboard"*.
+- Flagged for Michael's decision (not auto-fixed): Section 3 prompt-craft paragraph quotes Michael's actual chat phrase *"Lets do 2.7b.4, then git commit…"* — the verbatim chat history is great voice evidence, but *"2.7b.4"* is internal jargon a general audience won't decode. Options: keep as-is for authenticity (engineer audience will read it as project numbering), add a brief contextualizing aside, or replace with a different verbatim that's less jargon-dense.
