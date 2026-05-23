@@ -111,7 +111,7 @@ That's the four. Prompt craft, context engineering, intent engineering, spec eng
 
 [VISUAL: Screen capture — workspace directory tree, slow pan over .mind/, .spec/, .claude/, .github/]
 
-I've been practicing all four for about a year. Each one was a real promotion in what the work could do. Each one ran out somewhere.
+I've been doing spec, context, and prompt craft for years. Intent engineering is the newest of the four for me — `intent.yaml` and `.spec/covenant.yaml` only landed this spring, when I started writing purpose and values down as actual files instead of carrying them around as half-formed intuitions. Each of the four was a real promotion in what the work could do. Each ran out somewhere.
 
 **Prompt craft** was where I started. The win is direct: write a clear binding question, name the constraints, give the model what it needs to act. When the prompt is precise the model lands the work on the first attempt. The chat history shows it: *"Lets default to true for this, it's the point of the experiment, but I appreciate you asking. it's the kind of setting that costs money and I'll like the say on that."* That's prompt craft as a habit. Instruction plus constraint plus the reason.
 
@@ -174,8 +174,6 @@ Seven verbs the framework doesn't have. Scripture has had all seven since Abraha
 The bacteriopolis runaway happened because the spec was right and nothing was watching. Watching is the seventh step in the cycle. The framework doesn't have it yet. Episode 4 walks it.
 
 That's what I mean when I say the framework leaves things for the work itself. The work itself is seven verbs the four disciplines don't reach.
-
-This series walks them.
 
 ---
 
@@ -291,3 +289,13 @@ Single-pass read of the whole script with only the voice cut-list, em-dash budge
 
 **Flagged for Phase 2 (meta-narration sweep):**
 - §4 opener *"Something stands out about the four disciplines when I lay them next to scripture."* — softer than Episode 1's caught patterns but worth a look.
+
+## Voice-fact corrections (between Phase 1 and Phase 2, 2026-05-23)
+
+Two Michael-flagged items addressed before Phase 2 begins:
+
+1. **§3 opener factual fix.** Original: *"I've been practicing all four for about a year."* Michael flagged: not accurate — spec/context/prompt for years, intent only recently. Verified against git: `intent.yaml` first committed 2026-02-28; `.spec/covenant.yaml` 2026-03-22. So intent engineering for him is ~3 months, the other three are years. Rewritten to honor the actual timeline: *"I've been doing spec, context, and prompt craft for years. Intent engineering is the newest of the four for me — `intent.yaml` and `.spec/covenant.yaml` only landed this spring..."* The structural setup (each was a promotion, each ran out) preserved.
+
+2. **§4 closer "This series walks them" cut.** Michael flagged it as common Opus phrasing — the *"this [series/study/work] walks [it/them]"* tic. The line was also doing meta-narration (pointing forward) at a section boundary where the conceptual close (*"seven verbs the four disciplines don't reach"*) is already strong. The §5 teaser carries the forward-looking work. Cut entirely. §4 now ends on its own punch.
+
+**Voice-michael skill carry-forward:** *"This [series/study/work] walks [it/them]"* belongs on the cut list — flagged as an Opus tic by Michael 2026-05-23. Add to `.claude/skills/voice-michael/SKILL.md` so future scripts catch it in Phase 0.
