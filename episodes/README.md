@@ -31,7 +31,7 @@ Target length: 12–18 minutes per episode.
 | # | Slug | Status |
 |---|------|--------|
 | 1 | the-value-shift | **draft 6** (2026-05-21) — fact-check pass (external + scripture verification) |
-| 2 | the-four-disciplines | **draft 1** (2026-05-22) — Phase 0 voice-loaded |
+| 2 | the-four-disciplines | **draft 2** (2026-05-23) — Phase 1 voice sweep |
 | 3 | spiritual-before-temporal | planned |
 | 4 | watched-until-they-obeyed | planned |
 | 5 | intelligence-cleaveth | planned |
