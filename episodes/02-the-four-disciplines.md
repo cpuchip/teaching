@@ -264,7 +264,10 @@ Single-pass read of the whole script with only the voice cut-list, em-dash budge
 3. **§2 Klarna "loudest signal" sentence** — 2 em-dashes used as parenthetical brackets around *"resolution speed, ticket closure"*. Rewritten with parens.
 4. **§2 spec engineering "reads a spec" sentence** — 2 em-dashes used as parenthetical brackets around the autonomous-work list. Rewritten with commas only.
 5. **§5 "Build the four disciplines" bullet** — 4 em-dashes (one per discipline, same pattern as §1). Reshaped the same way: short declaratives.
-6. **§5 "Stop measuring" bullet** — 2 em-dashes used as parenthetical brackets around *"lines of code, features shipped, bugs fixed"*. Rewritten with parens.
+
+**§3 prompt-craft em-dash cleanup** (folded into the 2.7b.4 substitution edit) — 2 em-dashes in the same paragraph as the substitution (*"The win is direct — write a clear..."* and *"That's prompt craft as a habit — instruction plus constraint plus the reason"*). Both converted: first to colon, second broken into its own sentence.
+
+**Audit correction:** initial Phase 1 audit also listed a §5 "Stop measuring yourself by execution speed" bullet as needing parens — that's an Episode 1 bullet, not Episode 2. Confused the two scripts mid-audit. Episode 2's §5 has three bullets (*Build the four disciplines*, *Notice where the framework hands the work back*, *Don't wait for the industry to name what scripture already has*) and only the first had an em-dash issue. Corrected here for honesty; the false claim should not get to Phase 2 as a "fixed" item.
 
 **"It's not X, it's Y" pivot — one caught:**
 
@@ -276,7 +279,7 @@ Single-pass read of the whole script with only the voice cut-list, em-dash budge
 
 **2.7b.4 jargon substitution — resolved:**
 
-- Per Michael's option-3 pick, the *"Lets do 2.7b.4, then git commit with message..."* verbatim swapped for *"Lets default to true for this, it's the point of the experiment, but I appreciate you asking. it's the kind of setting that costs money and I'll like the say on that."* Same authenticity, no project numbering. Em-dashes around the surrounding *"The win is direct — write a clear..."* and *"That's prompt craft as a habit — instruction plus constraint plus the reason"* also cleaned up in the same edit.
+- Per Michael's option-3 pick, the *"Lets do 2.7b.4, then git commit with message..."* verbatim swapped for *"Lets default to true for this, it's the point of the experiment, but I appreciate you asking. it's the kind of setting that costs money and I'll like the say on that."* Same authenticity, no project numbering. (Em-dash cleanup in the same paragraph noted above.)
 
 **Closing refrain check — none triggered:**
 
