@@ -1,5 +1,19 @@
 # Scratch — Episode 2: The Four Disciplines
 
+> **RESUME HERE — 2026-05-22 detour bookmark.**
+> Phase 0 complete: draft 1 shipped (`teaching` commit `3db8e58`), mapping precision + stewards rename + drift sweep done. Detour to publish `study/what-was-the-atonement-for.md` to cpuchip.net.
+>
+> **When we resume:**
+> 1. Michael's pending decision: the *"2.7b.4"* chat-history quote in Section 3 prompt-craft paragraph — keep verbatim / add contextualizing aside / substitute with the *"Lets default to true... it's the kind of setting that costs money"* verbatim. Recommended option 3.
+> 2. Then Phase 1 — voice sweep. Watch list at the bottom of `teaching/episodes/02-the-four-disciplines.md` enumerates what to look for.
+> 3. After Phase 1 voice → Phase 2 meta-narration → Phase 3 partnership voicing → Phase 4 clarity → Phase 5 fact-check → Phase 6 ship + cpuchip.net companion page.
+>
+> Episode 2 is at `teaching/episodes/02-the-four-disciplines.md` — Status line says *"draft 1, 2026-05-22 — Phase 0 (mapping precision + stewards rename)."* Voice audit section at the bottom has the full watch list.
+
+---
+
+
+
 **Position in arc:** 2 of 11 (the industry-frame episode — walk the four disciplines the industry has named, show what each covers, name what the framework leaves for the work itself).
 
 **Binding question:** *Prompt craft, context engineering, intent engineering, spec engineering — what does each one cover, and what do they leave for the work itself?*

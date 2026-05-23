@@ -33,3 +33,6 @@ go.work.sum
 
 # video files
 videos/
+
+# claude hook cache
+.claude/cache/last-ground.txt
